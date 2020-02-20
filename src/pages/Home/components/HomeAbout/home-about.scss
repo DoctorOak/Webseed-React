@@ -1,0 +1,33 @@
+.home-about{
+  margin-top:2rem;
+  margin-bottom:4rem;
+
+  .photo-frame{
+    margin:2rem;
+    transform:translate3d(-50%, 0, 0);
+    opacity:0;
+    transition:all 0.5s;
+
+    @media(min-width:768px){
+      margin:0;
+    }
+  }
+
+  .about-title{
+    opacity:0;
+    transition: all 0.5s;
+  }
+
+  .about-text{
+    transform:translate3d(50%, 0, 0);
+    opacity:0;
+    transition: all 0.5s;
+  }
+
+  .in-view{
+    .photo-frame, .about-text, .about-title{
+      transform:translate3d(0,0,0);
+      opacity:1;
+    }
+  }
+}

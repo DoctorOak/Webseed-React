@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono|Source+Sans+Pro&display=swap');
+
+html, body{
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Share Tech Mono', monospace;
+}
+
+p{
+  line-height:2rem;
+}
+
+.inline-scroll-link{
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  cursor:pointer;
+  &:hover{
+    color: #0056b3;
+    text-decoration: underline;
+  }
+}
+
+.scroll-offset{
+  position:relative;
+  top:-20vh;
+  pointer-events:none;
+}

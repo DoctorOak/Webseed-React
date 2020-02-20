@@ -1,0 +1,41 @@
+.work-image{
+  position:relative;
+  .screen-2-img{
+    position:absolute;
+    top:5%;
+    left:-5%;
+    width:60%;
+    @media(min-width:768px){
+      width:70%;
+    }
+
+  }
+  .screen-3-img{
+    position:absolute;
+    top:25%;
+    right:-5%;
+    width:60%;
+    @media(min-width:768px){
+      width:70%;
+    }
+  }
+
+
+  .screen-img{
+    transition:all 0.2s;
+  }
+}
+
+.in-view{
+  .screen-2-img{
+    animation: moveScreen 10s linear infinite;
+  }
+  .screen-3-img{
+    animation: moveScreen 12s linear infinite;
+  }
+}
+
+@keyframes moveScreen {
+  from { transform: rotate(0deg) translateX(7px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(7px) rotate(-360deg); }
+}
