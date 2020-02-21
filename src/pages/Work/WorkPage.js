@@ -49,7 +49,7 @@ const WorkPage = () => {
                         relevant tweets with the right hashtags and marked as having been posted from the console.</p>
                 </WorkItem>
 
-                <WorkItem title={"Webseed"} img={"/mockups/webseed/webseed-mockup.png"} screensFolder={'/mockups/webseed'} buttonText='View Source' url={"https://github.com/DoctorOak/Webseed-React"} tags={['React', 'NodeJS', 'AWS']}>
+                <WorkItem title={"Webseed"} img={"/mockups/webseed/webseed-mockup.png"} screensFolder={'/mockups/webseed'} buttonText='View Source' url={"https://github.com/DoctorOak/Webseed-React/tree/deploy"} tags={['React', 'NodeJS', 'AWS']}>
                     <p>The website you're on right now!</p>
                     <p>For it's current purposes, this site is just a super basic collection of the information I need out there and is 100% powered by React and NodeJS, with no database layer.</p>
                     <p>As a basic example of my work in React, this site's source code is available on GitHub.</p>
