@@ -43,8 +43,8 @@ const HomeAbout = () => {
                                     <p>Now I'm available to do all of that for you, too! To find out more details on what I can do, please check out <ScrollTo selector={"#techPage"} className={"inline-scroll-link"}>my tech stack</ScrollTo>.
                                         I have some examples of my personal work <ScrollTo selector={"#workPage"} className={"inline-scroll-link"}>available below</ScrollTo> - including the source code for this website, built in React/Node.</p>
 
-                                    <p>If you're in Leeds or York and you're looking for a full-stack contractor with senior-level experience, please do get
-                                        in touch! You can also just <a href="https://www.linkedin.com/in/alex-winton-180a81b/" target={"_blank"}  rel="nofollow noopener noreferrer">find/message me on LinkedIn</a>.</p>
+                                    <p>If you're in Leeds or York and you're looking for a full-stack contractor with senior-level experience, please do <a href={"mailto:alex.winton@webseed.digital"}>get
+                                        in touch!</a> You can also <a href="https://www.linkedin.com/in/alex-winton-180a81b/" target={"_blank"}  rel="nofollow noopener noreferrer">find/message me on LinkedIn</a>.</p>
                                 </div>
                             </Col>
                         </Row>
