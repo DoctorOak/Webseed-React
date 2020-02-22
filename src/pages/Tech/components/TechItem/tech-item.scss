@@ -1,6 +1,6 @@
 .tech-item{
   display:flex;
-  max-width:25%;
+  max-width:50%;
   width:100%;
   flex-direction:column;
 
@@ -12,13 +12,24 @@
   transform:translate3d(0, 50%, 0);
   transition:all 0.4s;
 
+  h4{
+    font-size:1.2rem;
+  }
+
+  @media(min-width:1024px){
+    max-width:25%;
+    h4{
+      font-size:1.5rem;
+    }
+  }
+
 
   .tech-img{
     height:100px;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-bottom:2rem;
+    margin-bottom:0.5rem;
     padding:1rem;
   }
 
