@@ -9,7 +9,9 @@ As this year progresses, this website will eventually grow with additional examp
 ## ReactJS
 
 This site uses ReactJS and React DOM and was initially created using the React-Create-App template.
-The `build` folder contains the full deployed version of the site and can be served immediately upon cloning by running `serve -s build` from the root.
+Install the site using `npm install` and then run `npm run build` to create the production-ready version.
+
+The generated `build` folder contains the full deployed version of the site and can be served the same as the site runs on the production server by running `serve -s build` from the root.
 
 ## Structure
 
