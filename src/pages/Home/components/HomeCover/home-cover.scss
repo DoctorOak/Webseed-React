@@ -1,7 +1,6 @@
 .home-cover{
-  background:url('/bg.png');
+  background: #1c3b34 url('/bg.png') fixed;
   background-size:cover;
-  background-attachment:fixed;
   min-height:50vh;
   display:flex;
   justify-content:center;
