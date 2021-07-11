@@ -17,9 +17,7 @@ const WorkPage = () => {
                     <Row>
                         <Col md={{span:8, offset:2}}>
                             <h1>Some of my work</h1>
-                            <p>Below you can check out some of my personal projects.
-                                For now, this list is pretty small and focused on personal fan-projects, but throughout 2020 I will be
-                                adding at least one functional example - with the code available on Github - for each of the technologies in my <ScrollTo selector={"#techPage"} className={"inline-scroll-link"}>Tech Stack</ScrollTo>.</p>
+                            <p>Below you can check out some of my personal projects.</p>
                         </Col>
                     </Row>
                 </Container>
